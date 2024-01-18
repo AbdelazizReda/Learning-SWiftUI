@@ -17,7 +17,10 @@ struct OnLongPressGister: View {
                 .padding(.horizontal)
                 .background(isSelected ? .green : .blue)
                 .cornerRadius(10)
-                .onTapGesture {
+//                .onTapGesture {
+//                    isSelected.toggle()
+//                }
+                .onLongPressGesture{
                     isSelected.toggle()
                 }
         }

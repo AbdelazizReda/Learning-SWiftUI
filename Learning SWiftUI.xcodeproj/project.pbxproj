@@ -53,11 +53,11 @@
 		324217C52B59480E00A27BAA /* Learning SWiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				324217D82B594CDC00A27BAA /* Day1 */,
 				324217C62B59480E00A27BAA /* Learning_SWiftUIApp.swift */,
 				324217C82B59480E00A27BAA /* ContentView.swift */,
 				324217CA2B59481200A27BAA /* Assets.xcassets */,
 				324217CC2B59481200A27BAA /* Preview Content */,
-				324217D62B594BC400A27BAA /* OnLongPressGister.swift */,
 			);
 			path = "Learning SWiftUI";
 			sourceTree = "<group>";
@@ -68,6 +68,14 @@
 				324217CD2B59481200A27BAA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		324217D82B594CDC00A27BAA /* Day1 */ = {
+			isa = PBXGroup;
+			children = (
+				324217D62B594BC400A27BAA /* OnLongPressGister.swift */,
+			);
+			path = Day1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
