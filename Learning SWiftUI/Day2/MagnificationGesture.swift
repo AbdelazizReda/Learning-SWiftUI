@@ -28,11 +28,11 @@ struct MagnificationGesture: View {
                 .frame( height: 300, alignment: .leading)
                 .scaleEffect(1 + currentAmount )
                 .gesture(
-//                    MagnificationGesture()
-//                    MagnificationGesture()
+                    //                    MagnificationGesture()
+                    //                    MagnificationGesture()
                     MagnifyGesture()
                         .onChanged {val in
-//                        currentAmount = val - 1
+                            //                        currentAmount = val - 1
                         }
                         .onEnded{ value  in
                             withAnimation(.spring()){
@@ -40,8 +40,21 @@ struct MagnificationGesture: View {
                             }
                         }
                 )
-     
             
+            //like and fav
+            VStack{
+            HStack {
+                
+                Image(systemName: "heart")
+                Image(systemName: "cart")
+                Spacer()
+            }
+            .padding(5)
+            .padding(.horizontal)
+            Text("Thank you very much for your series of SwiftUI Continued Learning")
+
+            
+        }
         }
 
     }
