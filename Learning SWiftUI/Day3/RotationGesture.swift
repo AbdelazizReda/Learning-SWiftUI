@@ -20,19 +20,19 @@ struct RotationGesture: View {
             .background(Color.blue)
             .cornerRadius(10)
             .rotationEffect(angle)
-            .gesture(
-            RotationGesture()
-                .onChanged {val in
-                    angle = val
-                    }
-                .onEnded{ value  in
-                    withAnimation(.spring()){
-                        angle = Angle(degrees: 0)
-                    }
-                }
-            
-            
-            )
+//            .gesture(
+//            RotationGesture()
+//                .onChanged {val in
+//                    angle = val
+//                    }
+//                .onEnded{ value  in
+//                    withAnimation(.spring()){
+//                        angle = Angle(degrees: 0)
+//                    }
+//                }
+//            
+//            
+//            )
     }
 }
 

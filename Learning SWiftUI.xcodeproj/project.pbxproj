@@ -15,6 +15,7 @@
 		324217DA2B59578500A27BAA /* onLongPressGestureWithAnimation .swift in Sources */ = {isa = PBXBuildFile; fileRef = 324217D92B59578500A27BAA /* onLongPressGestureWithAnimation .swift */; };
 		324217DD2B5D411A00A27BAA /* MagnificationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324217DC2B5D411A00A27BAA /* MagnificationGesture.swift */; };
 		324217E12B5D554200A27BAA /* RotationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324217E02B5D554200A27BAA /* RotationGesture.swift */; };
+		324217E32B5D5AD800A27BAA /* DragGestureMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324217E22B5D5AD800A27BAA /* DragGestureMove.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		324217D92B59578500A27BAA /* onLongPressGestureWithAnimation .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "onLongPressGestureWithAnimation .swift"; sourceTree = "<group>"; };
 		324217DC2B5D411A00A27BAA /* MagnificationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGesture.swift; sourceTree = "<group>"; };
 		324217E02B5D554200A27BAA /* RotationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGesture.swift; sourceTree = "<group>"; };
+		324217E22B5D5AD800A27BAA /* DragGestureMove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureMove.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		324217DF2B5D553500A27BAA /* day4 */ = {
 			isa = PBXGroup;
 			children = (
+				324217E22B5D5AD800A27BAA /* DragGestureMove.swift */,
 			);
 			path = day4;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				324217E12B5D554200A27BAA /* RotationGesture.swift in Sources */,
 				324217D72B594BC400A27BAA /* OnLongPressGister.swift in Sources */,
 				324217DD2B5D411A00A27BAA /* MagnificationGesture.swift in Sources */,
+				324217E32B5D5AD800A27BAA /* DragGestureMove.swift in Sources */,
 				324217DA2B59578500A27BAA /* onLongPressGestureWithAnimation .swift in Sources */,
 				324217C72B59480E00A27BAA /* Learning_SWiftUIApp.swift in Sources */,
 			);
