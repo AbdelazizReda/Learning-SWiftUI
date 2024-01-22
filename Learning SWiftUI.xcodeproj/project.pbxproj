@@ -17,6 +17,7 @@
 		324217E12B5D554200A27BAA /* RotationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324217E02B5D554200A27BAA /* RotationGesture.swift */; };
 		324217E32B5D5AD800A27BAA /* DragGestureMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324217E22B5D5AD800A27BAA /* DragGestureMove.swift */; };
 		324217E52B5D74C700A27BAA /* DragGestureMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324217E42B5D74C700A27BAA /* DragGestureMenu.swift */; };
+		324217E82B5E7B8600A27BAA /* ScrollViewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324217E72B5E7B8600A27BAA /* ScrollViewTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		324217E02B5D554200A27BAA /* RotationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGesture.swift; sourceTree = "<group>"; };
 		324217E22B5D5AD800A27BAA /* DragGestureMove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureMove.swift; sourceTree = "<group>"; };
 		324217E42B5D74C700A27BAA /* DragGestureMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureMenu.swift; sourceTree = "<group>"; };
+		324217E72B5E7B8600A27BAA /* ScrollViewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		324217C52B59480E00A27BAA /* Learning SWiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				324217E62B5E7B6B00A27BAA /* Day5 */,
 				324217DF2B5D553500A27BAA /* day4 */,
 				324217DE2B5D4A1E00A27BAA /* Day3 */,
 				324217DB2B5D40B500A27BAA /* Day2 */,
@@ -115,6 +118,14 @@
 				324217E42B5D74C700A27BAA /* DragGestureMenu.swift */,
 			);
 			path = day4;
+			sourceTree = "<group>";
+		};
+		324217E62B5E7B6B00A27BAA /* Day5 */ = {
+			isa = PBXGroup;
+			children = (
+				324217E72B5E7B8600A27BAA /* ScrollViewTask.swift */,
+			);
+			path = Day5;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +206,7 @@
 				324217E32B5D5AD800A27BAA /* DragGestureMove.swift in Sources */,
 				324217DA2B59578500A27BAA /* onLongPressGestureWithAnimation .swift in Sources */,
 				324217C72B59480E00A27BAA /* Learning_SWiftUIApp.swift in Sources */,
+				324217E82B5E7B8600A27BAA /* ScrollViewTask.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
