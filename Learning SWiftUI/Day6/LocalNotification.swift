@@ -16,7 +16,7 @@ class NotificationManager {
         let options:UNAuthorizationOptions = [.alert , .badge , .sound]
         UNUserNotificationCenter.current().requestAuthorization(options: options) { success, error in
             
-            if let error = error {
+            if error != nil {
                 print("Error")
             }else{
                 print("success")
@@ -33,9 +33,12 @@ class NotificationManager {
         content.badge = 1
         
         //time
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5.0, repeats: false)
+//        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 1.0, repeats: false)
         //calender
-        
+        var dateComponent = DateComponents()
+        dateComponent.hour = 12
+        dateComponent.minute = 3
+        let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponent, repeats: true)
         //location
         
         let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
@@ -59,6 +62,9 @@ struct LocalNotification: View {
             }
 
         }
+//        .onAppear{
+//            UIApplication.shared.applicationIconBadgeNumber = 0
+//        }
     }
 }
 
