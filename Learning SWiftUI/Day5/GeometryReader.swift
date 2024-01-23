@@ -18,7 +18,7 @@ struct GeometryReader: View {
                             .rotation3DEffect(
 //                                Angle(degrees: getPercentage(geo: geometry) * 40)
                                 Angle(degrees: 10),
-                                axis: (x: 0.0, y: 1.0, z: 0.0)
+                                axis: (x: 0.0, y: 1.5, z: 0.0)
                             )
                             .frame(width: 300, height: 300, alignment: .center)
                     }
