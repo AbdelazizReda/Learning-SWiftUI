@@ -20,6 +20,7 @@
 		324217E82B5E7B8600A27BAA /* ScrollViewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324217E72B5E7B8600A27BAA /* ScrollViewTask.swift */; };
 		324217EA2B5E8D2E00A27BAA /* GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324217E92B5E8D2E00A27BAA /* GeometryReader.swift */; };
 		329D4EEF2B5FC453004A03C4 /* MaskRAtingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329D4EEE2B5FC453004A03C4 /* MaskRAtingView.swift */; };
+		329D4EF12B5FFAC8004A03C4 /* LocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329D4EF02B5FFAC8004A03C4 /* LocalNotification.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		324217E72B5E7B8600A27BAA /* ScrollViewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewTask.swift; sourceTree = "<group>"; };
 		324217E92B5E8D2E00A27BAA /* GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader.swift; sourceTree = "<group>"; };
 		329D4EEE2B5FC453004A03C4 /* MaskRAtingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskRAtingView.swift; sourceTree = "<group>"; };
+		329D4EF02B5FFAC8004A03C4 /* LocalNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				329D4EEE2B5FC453004A03C4 /* MaskRAtingView.swift */,
+				329D4EF02B5FFAC8004A03C4 /* LocalNotification.swift */,
 			);
 			path = Day6;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				324217DD2B5D411A00A27BAA /* MagnificationGesture.swift in Sources */,
 				324217E32B5D5AD800A27BAA /* DragGestureMove.swift in Sources */,
 				324217DA2B59578500A27BAA /* onLongPressGestureWithAnimation .swift in Sources */,
+				329D4EF12B5FFAC8004A03C4 /* LocalNotification.swift in Sources */,
 				324217C72B59480E00A27BAA /* Learning_SWiftUIApp.swift in Sources */,
 				324217EA2B5E8D2E00A27BAA /* GeometryReader.swift in Sources */,
 				324217E82B5E7B8600A27BAA /* ScrollViewTask.swift in Sources */,
