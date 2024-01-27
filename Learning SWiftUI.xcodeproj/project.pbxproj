@@ -22,6 +22,9 @@
 		329D4EEF2B5FC453004A03C4 /* MaskRAtingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329D4EEE2B5FC453004A03C4 /* MaskRAtingView.swift */; };
 		329D4EF12B5FFAC8004A03C4 /* LocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329D4EF02B5FFAC8004A03C4 /* LocalNotification.swift */; };
 		329D4EF42B606FAB004A03C4 /* HashableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329D4EF32B606FAB004A03C4 /* HashableProtocol.swift */; };
+		32BA8FD32B659865008DB068 /* TestDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BA8FD22B659865008DB068 /* TestDataModel.swift */; };
+		32BA8FD52B65987E008DB068 /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BA8FD42B65987E008DB068 /* TestViewModel.swift */; };
+		32BA8FD72B659888008DB068 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BA8FD62B659888008DB068 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +44,9 @@
 		329D4EEE2B5FC453004A03C4 /* MaskRAtingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskRAtingView.swift; sourceTree = "<group>"; };
 		329D4EF02B5FFAC8004A03C4 /* LocalNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotification.swift; sourceTree = "<group>"; };
 		329D4EF32B606FAB004A03C4 /* HashableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableProtocol.swift; sourceTree = "<group>"; };
+		32BA8FD22B659865008DB068 /* TestDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDataModel.swift; sourceTree = "<group>"; };
+		32BA8FD42B65987E008DB068 /* TestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModel.swift; sourceTree = "<group>"; };
+		32BA8FD62B659888008DB068 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,7 @@
 		324217C52B59480E00A27BAA /* Learning SWiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				32BA8FD12B659843008DB068 /* Dey8 */,
 				329D4EF22B606F83004A03C4 /* Day7 */,
 				329D4EED2B5FBEE7004A03C4 /* Day6 */,
 				324217E62B5E7B6B00A27BAA /* Day5 */,
@@ -156,6 +163,16 @@
 			path = Day7;
 			sourceTree = "<group>";
 		};
+		32BA8FD12B659843008DB068 /* Dey8 */ = {
+			isa = PBXGroup;
+			children = (
+				32BA8FD22B659865008DB068 /* TestDataModel.swift */,
+				32BA8FD42B65987E008DB068 /* TestViewModel.swift */,
+				32BA8FD62B659888008DB068 /* TestView.swift */,
+			);
+			path = Dey8;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -230,13 +247,16 @@
 				329D4EEF2B5FC453004A03C4 /* MaskRAtingView.swift in Sources */,
 				324217E12B5D554200A27BAA /* RotationGesture.swift in Sources */,
 				324217E52B5D74C700A27BAA /* DragGestureMenu.swift in Sources */,
+				32BA8FD72B659888008DB068 /* TestView.swift in Sources */,
 				324217D72B594BC400A27BAA /* OnLongPressGister.swift in Sources */,
 				324217DD2B5D411A00A27BAA /* MagnificationGesture.swift in Sources */,
 				324217E32B5D5AD800A27BAA /* DragGestureMove.swift in Sources */,
+				32BA8FD32B659865008DB068 /* TestDataModel.swift in Sources */,
 				324217DA2B59578500A27BAA /* onLongPressGestureWithAnimation .swift in Sources */,
 				329D4EF42B606FAB004A03C4 /* HashableProtocol.swift in Sources */,
 				329D4EF12B5FFAC8004A03C4 /* LocalNotification.swift in Sources */,
 				324217C72B59480E00A27BAA /* Learning_SWiftUIApp.swift in Sources */,
+				32BA8FD52B65987E008DB068 /* TestViewModel.swift in Sources */,
 				324217EA2B5E8D2E00A27BAA /* GeometryReader.swift in Sources */,
 				324217E82B5E7B8600A27BAA /* ScrollViewTask.swift in Sources */,
 			);
