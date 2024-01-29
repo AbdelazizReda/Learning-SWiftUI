@@ -25,6 +25,9 @@
 		32BA8FD32B659865008DB068 /* TestDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BA8FD22B659865008DB068 /* TestDataModel.swift */; };
 		32BA8FD52B65987E008DB068 /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BA8FD42B65987E008DB068 /* TestViewModel.swift */; };
 		32BA8FD72B659888008DB068 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BA8FD62B659888008DB068 /* TestView.swift */; };
+		32BA8FF92B665619008DB068 /* ThreadTestDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BA8FF82B665619008DB068 /* ThreadTestDataModel.swift */; };
+		32BA8FFB2B66562E008DB068 /* ThreadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BA8FFA2B66562E008DB068 /* ThreadViewModel.swift */; };
+		32BA8FFD2B665643008DB068 /* ThreadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BA8FFC2B665643008DB068 /* ThreadView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +50,9 @@
 		32BA8FD22B659865008DB068 /* TestDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDataModel.swift; sourceTree = "<group>"; };
 		32BA8FD42B65987E008DB068 /* TestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModel.swift; sourceTree = "<group>"; };
 		32BA8FD62B659888008DB068 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		32BA8FF82B665619008DB068 /* ThreadTestDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadTestDataModel.swift; sourceTree = "<group>"; };
+		32BA8FFA2B66562E008DB068 /* ThreadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadViewModel.swift; sourceTree = "<group>"; };
+		32BA8FFC2B665643008DB068 /* ThreadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 		324217C52B59480E00A27BAA /* Learning SWiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				32BA8FF72B6655EB008DB068 /* Day9 */,
 				32BA8FD12B659843008DB068 /* Dey8 */,
 				329D4EF22B606F83004A03C4 /* Day7 */,
 				329D4EED2B5FBEE7004A03C4 /* Day6 */,
@@ -173,6 +180,16 @@
 			path = Dey8;
 			sourceTree = "<group>";
 		};
+		32BA8FF72B6655EB008DB068 /* Day9 */ = {
+			isa = PBXGroup;
+			children = (
+				32BA8FF82B665619008DB068 /* ThreadTestDataModel.swift */,
+				32BA8FFA2B66562E008DB068 /* ThreadViewModel.swift */,
+				32BA8FFC2B665643008DB068 /* ThreadView.swift */,
+			);
+			path = Day9;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -247,10 +264,12 @@
 				329D4EEF2B5FC453004A03C4 /* MaskRAtingView.swift in Sources */,
 				324217E12B5D554200A27BAA /* RotationGesture.swift in Sources */,
 				324217E52B5D74C700A27BAA /* DragGestureMenu.swift in Sources */,
+				32BA8FFD2B665643008DB068 /* ThreadView.swift in Sources */,
 				32BA8FD72B659888008DB068 /* TestView.swift in Sources */,
 				324217D72B594BC400A27BAA /* OnLongPressGister.swift in Sources */,
 				324217DD2B5D411A00A27BAA /* MagnificationGesture.swift in Sources */,
 				324217E32B5D5AD800A27BAA /* DragGestureMove.swift in Sources */,
+				32BA8FFB2B66562E008DB068 /* ThreadViewModel.swift in Sources */,
 				32BA8FD32B659865008DB068 /* TestDataModel.swift in Sources */,
 				324217DA2B59578500A27BAA /* onLongPressGestureWithAnimation .swift in Sources */,
 				329D4EF42B606FAB004A03C4 /* HashableProtocol.swift in Sources */,
@@ -259,6 +278,7 @@
 				32BA8FD52B65987E008DB068 /* TestViewModel.swift in Sources */,
 				324217EA2B5E8D2E00A27BAA /* GeometryReader.swift in Sources */,
 				324217E82B5E7B8600A27BAA /* ScrollViewTask.swift in Sources */,
+				32BA8FF92B665619008DB068 /* ThreadTestDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

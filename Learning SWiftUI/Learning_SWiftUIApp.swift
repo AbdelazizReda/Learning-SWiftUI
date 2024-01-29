@@ -11,7 +11,7 @@ import SwiftUI
 struct Learning_SWiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            LocalNotification()
+            ThreadView()
         }
     }
 }
