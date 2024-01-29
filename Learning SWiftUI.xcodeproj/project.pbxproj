@@ -19,6 +19,7 @@
 		324217E52B5D74C700A27BAA /* DragGestureMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324217E42B5D74C700A27BAA /* DragGestureMenu.swift */; };
 		324217E82B5E7B8600A27BAA /* ScrollViewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324217E72B5E7B8600A27BAA /* ScrollViewTask.swift */; };
 		324217EA2B5E8D2E00A27BAA /* GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324217E92B5E8D2E00A27BAA /* GeometryReader.swift */; };
+		3260131E2B682C470093CA34 /* TypealiasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3260131D2B682C470093CA34 /* TypealiasView.swift */; };
 		329D4EEF2B5FC453004A03C4 /* MaskRAtingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329D4EEE2B5FC453004A03C4 /* MaskRAtingView.swift */; };
 		329D4EF12B5FFAC8004A03C4 /* LocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329D4EF02B5FFAC8004A03C4 /* LocalNotification.swift */; };
 		329D4EF42B606FAB004A03C4 /* HashableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329D4EF32B606FAB004A03C4 /* HashableProtocol.swift */; };
@@ -44,6 +45,7 @@
 		324217E42B5D74C700A27BAA /* DragGestureMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureMenu.swift; sourceTree = "<group>"; };
 		324217E72B5E7B8600A27BAA /* ScrollViewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewTask.swift; sourceTree = "<group>"; };
 		324217E92B5E8D2E00A27BAA /* GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader.swift; sourceTree = "<group>"; };
+		3260131D2B682C470093CA34 /* TypealiasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypealiasView.swift; sourceTree = "<group>"; };
 		329D4EEE2B5FC453004A03C4 /* MaskRAtingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskRAtingView.swift; sourceTree = "<group>"; };
 		329D4EF02B5FFAC8004A03C4 /* LocalNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotification.swift; sourceTree = "<group>"; };
 		329D4EF32B606FAB004A03C4 /* HashableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableProtocol.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 		324217C52B59480E00A27BAA /* Learning SWiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				3260131C2B682C1B0093CA34 /* Day10 */,
 				32BA8FF72B6655EB008DB068 /* Day9 */,
 				32BA8FD12B659843008DB068 /* Dey8 */,
 				329D4EF22B606F83004A03C4 /* Day7 */,
@@ -151,6 +154,14 @@
 				324217E92B5E8D2E00A27BAA /* GeometryReader.swift */,
 			);
 			path = Day5;
+			sourceTree = "<group>";
+		};
+		3260131C2B682C1B0093CA34 /* Day10 */ = {
+			isa = PBXGroup;
+			children = (
+				3260131D2B682C470093CA34 /* TypealiasView.swift */,
+			);
+			path = Day10;
 			sourceTree = "<group>";
 		};
 		329D4EED2B5FBEE7004A03C4 /* Day6 */ = {
@@ -273,6 +284,7 @@
 				32BA8FD32B659865008DB068 /* TestDataModel.swift in Sources */,
 				324217DA2B59578500A27BAA /* onLongPressGestureWithAnimation .swift in Sources */,
 				329D4EF42B606FAB004A03C4 /* HashableProtocol.swift in Sources */,
+				3260131E2B682C470093CA34 /* TypealiasView.swift in Sources */,
 				329D4EF12B5FFAC8004A03C4 /* LocalNotification.swift in Sources */,
 				324217C72B59480E00A27BAA /* Learning_SWiftUIApp.swift in Sources */,
 				32BA8FD52B65987E008DB068 /* TestViewModel.swift in Sources */,
