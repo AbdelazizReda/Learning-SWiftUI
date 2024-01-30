@@ -23,6 +23,7 @@
 		329D4EEF2B5FC453004A03C4 /* MaskRAtingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329D4EEE2B5FC453004A03C4 /* MaskRAtingView.swift */; };
 		329D4EF12B5FFAC8004A03C4 /* LocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329D4EF02B5FFAC8004A03C4 /* LocalNotification.swift */; };
 		329D4EF42B606FAB004A03C4 /* HashableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329D4EF32B606FAB004A03C4 /* HashableProtocol.swift */; };
+		32AD83152B69272A00A4E2A4 /* NetworkManagerURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AD83142B69272A00A4E2A4 /* NetworkManagerURLSession.swift */; };
 		32BA8FD32B659865008DB068 /* TestDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BA8FD22B659865008DB068 /* TestDataModel.swift */; };
 		32BA8FD52B65987E008DB068 /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BA8FD42B65987E008DB068 /* TestViewModel.swift */; };
 		32BA8FD72B659888008DB068 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BA8FD62B659888008DB068 /* TestView.swift */; };
@@ -49,6 +50,7 @@
 		329D4EEE2B5FC453004A03C4 /* MaskRAtingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskRAtingView.swift; sourceTree = "<group>"; };
 		329D4EF02B5FFAC8004A03C4 /* LocalNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotification.swift; sourceTree = "<group>"; };
 		329D4EF32B606FAB004A03C4 /* HashableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableProtocol.swift; sourceTree = "<group>"; };
+		32AD83142B69272A00A4E2A4 /* NetworkManagerURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerURLSession.swift; sourceTree = "<group>"; };
 		32BA8FD22B659865008DB068 /* TestDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDataModel.swift; sourceTree = "<group>"; };
 		32BA8FD42B65987E008DB068 /* TestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModel.swift; sourceTree = "<group>"; };
 		32BA8FD62B659888008DB068 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 		324217C52B59480E00A27BAA /* Learning SWiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				32AD83132B69262900A4E2A4 /* Day11 */,
 				3260131C2B682C1B0093CA34 /* Day10 */,
 				32BA8FF72B6655EB008DB068 /* Day9 */,
 				32BA8FD12B659843008DB068 /* Dey8 */,
@@ -179,6 +182,14 @@
 				329D4EF32B606FAB004A03C4 /* HashableProtocol.swift */,
 			);
 			path = Day7;
+			sourceTree = "<group>";
+		};
+		32AD83132B69262900A4E2A4 /* Day11 */ = {
+			isa = PBXGroup;
+			children = (
+				32AD83142B69272A00A4E2A4 /* NetworkManagerURLSession.swift */,
+			);
+			path = Day11;
 			sourceTree = "<group>";
 		};
 		32BA8FD12B659843008DB068 /* Dey8 */ = {
@@ -288,6 +299,7 @@
 				329D4EF12B5FFAC8004A03C4 /* LocalNotification.swift in Sources */,
 				324217C72B59480E00A27BAA /* Learning_SWiftUIApp.swift in Sources */,
 				32BA8FD52B65987E008DB068 /* TestViewModel.swift in Sources */,
+				32AD83152B69272A00A4E2A4 /* NetworkManagerURLSession.swift in Sources */,
 				324217EA2B5E8D2E00A27BAA /* GeometryReader.swift in Sources */,
 				324217E82B5E7B8600A27BAA /* ScrollViewTask.swift in Sources */,
 				32BA8FF92B665619008DB068 /* ThreadTestDataModel.swift in Sources */,
